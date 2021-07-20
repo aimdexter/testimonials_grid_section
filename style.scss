@@ -1,0 +1,163 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+    a { color: hsl(228, 45%, 44%);
+}
+}
+// Primary
+
+$mviolet: hsl(263, 55%, 52%);
+$vdgrauishblue: hsl(217, 19%, 35%);
+$vdarkblackishblue: hsl(219, 29%, 14%);
+
+// Neutral
+
+$Lightgray: hsl(0, 0%, 81%);
+$Lightgrayishblue: hsl(210, 46%, 95%);
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+* { 
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 2rem 1rem ;
+    background-color: $Lightgrayishblue;
+}
+main{
+    display: flex;
+    gap: 20px;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+@mixin card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 375px;
+    gap: 10px;
+    padding: 2rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    letter-spacing: 0.7px;
+    .profil{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        align-items: center;
+        .pf-img{
+            border: 2px solid $Lightgray;
+            border-radius: 50%;
+            width: 13%;
+            height: 13%;
+        }
+        .infos{
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            color: $Lightgrayishblue;    
+        }
+    }
+    .verified{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        color: $Lightgray;
+    }
+    h1{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: $Lightgrayishblue;
+    }
+    p{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        color: $Lightgray;
+
+    }
+}
+@mixin card1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 375px;
+    gap: 10px;
+    padding: 2rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    letter-spacing: 0.7px;
+    background-color: white;
+    .profil{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        align-items: center;
+        .pf-img{
+            border: 2px solid $Lightgray;
+            border-radius: 50%;
+            width: 13%;
+            height: 13%;
+        }
+        .infos{
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            color: $vdgrauishblue;    
+        }
+    }
+    .verified{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        color: $vdgrauishblue;
+    }
+    h1{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: $vdgrauishblue;
+    }
+    p{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        color: $vdgrauishblue;
+
+    }
+}
+.card-item1{
+@include card;
+background:$mviolet;
+z-index: -2;
+position: relative;
+.quotation{
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    top: 3px;
+    right: 28px;
+}
+
+}
+.card-item2{
+    @include card;
+    background:$vdgrauishblue;
+}
+.card-item3{
+    @include card1;
+}
+.card-item4{
+    @include card;
+    background:$vdarkblackishblue;
+
+}
+.card-item5{
+    @include card1;
+}

@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 2rem 1rem;
+  background-color: #ecf2f8;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 375px;
+  gap: 10px;
+  padding: 2rem 2rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.7px;
+  background: #7541c8;
+  z-index: -2;
+  position: relative;
+}
+
+.card-item1 .profil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-item1 .profil .pf-img {
+  border: 2px solid #cfcfcf;
+  border-radius: 50%;
+  width: 13%;
+  height: 13%;
+}
+
+.card-item1 .profil .infos {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ecf2f8;
+}
+
+.card-item1 .verified {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #cfcfcf;
+}
+
+.card-item1 h1 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ecf2f8;
+}
+
+.card-item1 p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #cfcfcf;
+}
+
+.card-item1 .quotation {
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  top: 3px;
+  right: 28px;
+}
+
+.card-item2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 375px;
+  gap: 10px;
+  padding: 2rem 2rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.7px;
+  background: #48556a;
+}
+
+.card-item2 .profil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-item2 .profil .pf-img {
+  border: 2px solid #cfcfcf;
+  border-radius: 50%;
+  width: 13%;
+  height: 13%;
+}
+
+.card-item2 .profil .infos {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ecf2f8;
+}
+
+.card-item2 .verified {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #cfcfcf;
+}
+
+.card-item2 h1 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ecf2f8;
+}
+
+.card-item2 p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #cfcfcf;
+}
+
+.card-item3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 375px;
+  gap: 10px;
+  padding: 2rem 2rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.7px;
+  background-color: white;
+}
+
+.card-item3 .profil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-item3 .profil .pf-img {
+  border: 2px solid #cfcfcf;
+  border-radius: 50%;
+  width: 13%;
+  height: 13%;
+}
+
+.card-item3 .profil .infos {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #48556a;
+}
+
+.card-item3 .verified {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #48556a;
+}
+
+.card-item3 h1 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #48556a;
+}
+
+.card-item3 p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #48556a;
+}
+
+.card-item4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 375px;
+  gap: 10px;
+  padding: 2rem 2rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.7px;
+  background: #19212e;
+}
+
+.card-item4 .profil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-item4 .profil .pf-img {
+  border: 2px solid #cfcfcf;
+  border-radius: 50%;
+  width: 13%;
+  height: 13%;
+}
+
+.card-item4 .profil .infos {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ecf2f8;
+}
+
+.card-item4 .verified {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #cfcfcf;
+}
+
+.card-item4 h1 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ecf2f8;
+}
+
+.card-item4 p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #cfcfcf;
+}
+
+.card-item5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 375px;
+  gap: 10px;
+  padding: 2rem 2rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.7px;
+  background-color: white;
+}
+
+.card-item5 .profil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-item5 .profil .pf-img {
+  border: 2px solid #cfcfcf;
+  border-radius: 50%;
+  width: 13%;
+  height: 13%;
+}
+
+.card-item5 .profil .infos {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #48556a;
+}
+
+.card-item5 .verified {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #48556a;
+}
+
+.card-item5 h1 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #48556a;
+}
+
+.card-item5 p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #48556a;
+}
+/*# sourceMappingURL=style.css.map */
