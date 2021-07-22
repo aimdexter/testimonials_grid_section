@@ -45,8 +45,9 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 375px;
   gap: 10px;
   padding: 2rem 2rem;
   border-radius: 8px;
@@ -66,8 +67,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -77,8 +78,6 @@ main {
 .card-item1 .profil .pf-img {
   border: 2px solid #cfcfcf;
   border-radius: 50%;
-  width: 13%;
-  height: 13%;
 }
 
 .card-item1 .profil .infos {
@@ -125,8 +124,9 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 375px;
   gap: 10px;
   padding: 2rem 2rem;
   border-radius: 8px;
@@ -144,8 +144,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -155,8 +155,6 @@ main {
 .card-item2 .profil .pf-img {
   border: 2px solid #cfcfcf;
   border-radius: 50%;
-  width: 13%;
-  height: 13%;
 }
 
 .card-item2 .profil .infos {
@@ -195,8 +193,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 375px;
   gap: 10px;
   padding: 2rem 2rem;
@@ -215,8 +213,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -226,8 +224,6 @@ main {
 .card-item3 .profil .pf-img {
   border: 2px solid #cfcfcf;
   border-radius: 50%;
-  width: 13%;
-  height: 13%;
 }
 
 .card-item3 .profil .infos {
@@ -266,8 +262,9 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 375px;
   gap: 10px;
   padding: 2rem 2rem;
   border-radius: 8px;
@@ -285,8 +282,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -296,8 +293,6 @@ main {
 .card-item4 .profil .pf-img {
   border: 2px solid #cfcfcf;
   border-radius: 50%;
-  width: 13%;
-  height: 13%;
 }
 
 .card-item4 .profil .infos {
@@ -336,8 +331,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 375px;
   gap: 10px;
   padding: 2rem 2rem;
@@ -356,8 +351,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -367,8 +362,6 @@ main {
 .card-item5 .profil .pf-img {
   border: 2px solid #cfcfcf;
   border-radius: 50%;
-  width: 13%;
-  height: 13%;
 }
 
 .card-item5 .profil .infos {
@@ -409,6 +402,8 @@ main {
         grid-template-rows: repeat(2, 1fr);
   }
   .card-item1 {
+    width: auto;
+    height: 100%;
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     -ms-grid-column: 1;
@@ -416,6 +411,8 @@ main {
     grid-area: 1/1/2/3;
   }
   .card-item2 {
+    width: auto;
+    height: 100%;
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     -ms-grid-column: 3;
@@ -423,6 +420,8 @@ main {
     grid-area: 1/3/2/4;
   }
   .card-item3 {
+    width: auto;
+    height: 100%;
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     -ms-grid-column: 1;
@@ -430,6 +429,8 @@ main {
     grid-area: 2/1/3/2;
   }
   .card-item4 {
+    width: auto;
+    height: 100%;
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     -ms-grid-column: 2;
@@ -437,6 +438,8 @@ main {
     grid-area: 2/2/3/4;
   }
   .card-item5 {
+    width: auto;
+    height: 100%;
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
     -ms-grid-column: 4;

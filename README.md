@@ -34,7 +34,7 @@ Users should be able to:
 
 - Solution URL: [Github](https://github.com/aimdexter/)
 
-- Live Site URL: [Demo](https://aimdexter.github.io/)
+- Live Site URL: [Demo](https://aimdexter.github.io/testimonials-grid-section-main/)
 
 ## My process
 
