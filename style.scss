@@ -159,10 +159,15 @@ position: relative;
 }
 
 @media (min-width: 1440px) {
+    body{
+        display: grid;
+        justify-content: center;
+    }
     main{
         display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: repeat(2,1fr) ;
+        width: 1440px;
     }
     @mixin card {
         width: auto;

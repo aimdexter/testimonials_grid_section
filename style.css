@@ -393,6 +393,13 @@ main {
 }
 
 @media (min-width: 1440px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   main {
     display: -ms-grid;
     display: grid;
@@ -400,6 +407,7 @@ main {
         grid-template-columns: repeat(4, 1fr);
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
+    width: 1440px;
   }
   .card-item1 {
     width: auto;
