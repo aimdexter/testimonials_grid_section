@@ -28,7 +28,7 @@ Users should be able to:
 
 - Mobile
 
-![](./images/phone.png)
+![](./images/mobile.png)
 
 ### Links
 
