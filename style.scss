@@ -162,6 +162,7 @@ position: relative;
     body{
         display: grid;
         justify-content: center;
+        margin-top: 10rem;
     }
     main{
         display: grid;
@@ -199,5 +200,8 @@ position: relative;
     .card-item5{
         @include card;
         grid-area:1/4/3/5 ;
+        p{
+            height: max-content;
+        }
     }   
     }

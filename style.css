@@ -399,6 +399,7 @@ main {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 10rem;
   }
   main {
     display: -ms-grid;
@@ -453,6 +454,11 @@ main {
     -ms-grid-column: 4;
     -ms-grid-column-span: 1;
     grid-area: 1/4/3/5;
+  }
+  .card-item5 p {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
 }
 /*# sourceMappingURL=style.css.map */
